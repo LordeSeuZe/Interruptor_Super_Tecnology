@@ -3,13 +3,27 @@ body,
 #root {
   height: 100%;
   width: 100%;
-  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.luz{
-    background-color: yellow;
+.interruptor {
+  width: 450px;
+  height: auto;
+  cursor: pointer; 
 }
 
-.breu{
-    background-color: black;
+.luz {
+  background-color: #f1c40f;
+}
+
+.breu {
+  background-color: #1a1a1a;
 }
